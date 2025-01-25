@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="/files/css/fonts.css">
+    <link rel="stylesheet" href="/files/css/header.css">
+    <link rel="stylesheet" href="/files/css/footer.css">
+    <link rel="stylesheet" href="/files/css/index.css">
+    <script src="/files/js/gsap.min.js"></script>
+    <script src="/files/js/ScrollTrigger.min.js"></script>
+    <script src="/files/js/staticAnimation.js"></script>
+    <script src="/files/js/index.js"></script>
+</head>
+
+<body>
+    <%- include('blocks/header') -%>
+
+        <section class="section-welcome">
+            <div class="parent_box_img nesvig left_img">
+                <img src="/files/img/НесвижскийЗамок.png" alt="img" class="parent_box_img--img">
+            </div>
+            <div class="parent_box_img sobor left_img">
+                <img src="/files/img/СофийскийСобор.png" alt="img" class="parent_box_img--img">
+            </div>
+            <div class="parent_box_img carusel left_img">
+                <img src="/files/img/Парк_Гомель.png" alt="img" class="parent_box_img--img">
+            </div>
+            <div class="parent_box_img krepost left_img">
+                <img src="/files/img/БрестскаяКрепость.png" alt="img" class="parent_box_img--img">
+            </div>
+            <div class="parent_box_img naroch left_img">
+                <img src="/files/img/Нарочь.png" alt="img" class="parent_box_img--img">
+            </div>
+
+            <div class="parent_box_img library right_img">
+                <img src="/files/img/Библиотека.png" alt="img" class="parent_box_img--img">
+            </div>
+            <div class="parent_box_img braslav right_img">
+                <img src="/files/img/БраславскиеОзера.png" alt="img" class="parent_box_img--img">
+            </div>
+            <div class="parent_box_img hatin right_img">
+                <img src="/files/img/Хатынь.png" alt="img" class="parent_box_img--img">
+            </div>
+            <div class="parent_box_img lidski right_img">
+                <img src="/files/img/ЛидскийЗамок.png" alt="img" class="parent_box_img--img">
+            </div>
+            <div class="parent_box_img mirski right_img">
+                <img src="/files/img/МирскийЗамокpng.png" alt="img" class="parent_box_img--img">
+            </div>
+            <div class="section-welcome--center_div">
+                <span class="heading alegreya-sans-sc-medium head_anim">Наследие Беларуси: интерактивная <br> карта достопримечательностей</span>
+                <span class="text roboto-regular text_main head_anim">Узнайте о культурных и природных сокровищах нашей страны!</span>
+                <button class="red_button roboto-regular head_anim" onclick="window.location = '/map'">Перейти на карту</button>
+            </div>
+        </section>
+
+        <section class="section_places">
+            <div class="section_places--div">
+                <span class="heading alegreya-sans-sc-medium">Что вы найдете на карте?</span>
+                <div class="section_places--div--numbers">
+                    <div>
+                        <span class="text roboto-regular">1</span>
+                    </div>
+                    <span class="roboto-regular text">Исторические места: Древние замки и крепости.</span>
+                </div>
+                <div class="section_places--div--numbers">
+                    <div>
+                        <span class="text roboto-regular">2</span>
+                    </div>
+                    <span class="roboto-regular text">Природные красоты: Парки, леса, озёра.</span>
+                </div>
+                <div class="section_places--div--numbers">
+                    <div>
+                        <span class="text roboto-regular">3</span>
+                    </div>
+                    <span class="roboto-regular text">Культурные центры: Театры, музеи, фестивали.</span>
+                </div>
+                <div class="section_places--div--numbers">
+                    <div>
+                        <span class="text roboto-regular">4</span>
+                    </div>
+                    <span class="roboto-regular text">Современные объекты: Парки развлечений, скверы.</span>
+                </div>
+            </div>
+            <div class="section_places--div box_images">
+                <div class="parent_box_img first">
+                    <img src="/files/img/НесвижскийЗамок.png" alt="img" class="parent_box_img--img first_img">
+                </div>
+                <div class="parent_box_img second">
+                    <img src="/files/img/Нарочь.png" alt="img" class="parent_box_img--img second_img">
+                </div>
+                <div class="parent_box_img third">
+                    <img src="/files/img/Театр.png" alt="img" class="parent_box_img--img third_img">
+                </div>
+                <div class="parent_box_img fourth">
+                    <img src="/files/img/Парк_Гомель.png" alt="img" class="parent_box_img--img fourth_img">
+                </div>
+            </div>
+        </section>
+
+        <section class="section_popular">
+            <span class="heading alegreya-sans-sc-medium">Популярные достопримечательности</span>
+            <div id="cards">
+            </div>
+        </section>
+
+        <section class="section_belarus">
+            <div class="section_belarus--div">
+                <span class="heading alegreya-sans-sc-medium">О Беларуси</span>
+                <span class="text roboto-regular">Беларусь — это страна в центре Европы, известная своими живописными лесами, озерами и уникальными историческими памятниками. Здесь находятся такие знаменитые достопримечательности, как Брестская крепость, Несвижский и Мирский замки, а также природные чудеса, включая Беловежскую пущу, где обитают зубры. Беларусь имеет богатые культурные наследия и традиции, которые передаются из поколения в поколение.</span>
+                <span class="text roboto-regular">Столицей является Минск — город с богатой историей и современной архитектурой. Беларусь сочетает древние традиции и достижения современной науки и техники.</span>
+            </div>
+            <div class="section_belarus--div">
+                <div class="parent_box_img">
+                    <img src="/files/img/Город.png" alt="city" class="parent_box_img--img">
+                </div>
+            </div>
+        </section>
+
+        <section class="section_project">
+            <span class="heading alegreya-sans-sc-medium">О проекте</span>
+            <span class="text roboto-regular">Моя цель — показать, как много интересного скрыто в каждом уголке Беларуси. Я собрал точную информацию и лучшие фотографии, чтобы ваше путешествие по стране стало ещё захватывающим!</span>
+            <button class="red_button" onclick="window.location = 'about'">Узнать больше</button>
+        </section>
+
+        <%- include('blocks/footer') -%>
+</body>
+
+</html>

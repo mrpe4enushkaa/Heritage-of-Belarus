@@ -1,0 +1,13 @@
+{
+  "name": "heritage-of-belarus",
+  "version": "1.0.0",
+  "description": "Web-site about attractions of Belarus",
+  "main": "server.js",
+  "scripts": {},
+  "author": "Daniil",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

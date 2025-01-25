@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/files/css/fonts.css">
+    <link rel="stylesheet" href="/files/css/header.css">
+    <link rel="stylesheet" href="/files/css/footer.css">
+    <link rel="stylesheet" href="/files/css/about.css">
+    <script src="/files/js/gsap.min.js"></script>
+    <script src="/files/js/ScrollTrigger.min.js"></script>
+    <script src="/files/js/staticAnimation.js"></script>
+    <script src="/files/js/about.js"></script>
+    <title>About the project</title>
+</head>
+
+<body>
+    <%- include('blocks/header') -%>
+        <section class="otstyp section_white-bg" id="section_white-bg">
+            <div>
+                <span class="heading alegreya-sans-sc-medium">О проекте: интерактивная карта достопримечательностей Беларуси</span>
+                <span class="text roboto-regular">Данный проект создан для того, чтобы познакомить пользователя с богатыми культурными и природными наследиями Беларуси. Сайт предлагает интерактивную карту, где пользователь может найти в разных уголках Беларуси различные достопримечательности, чтобы познать тонкости белорусского наследия. Также, чтобы найти быстро какой-либо объект, пользователь может зайти во вкладку «Локации» и найти нужную достопримечательность в пару движений.</span>
+            </div>
+        </section>
+
+        <section class="section_numbers">
+            <span class="heading alegreya-sans-sc-medium" id="num_anim">Цель проекта</span>
+            <div class="section_numbers--div--numbers" id="num_anim">
+                <div class="roboto-regular text">1</div>
+                <span class="roboto-regular text">Объединить в одном месте информацию о разных местах страны</span>
+            </div>
+            <div class="section_numbers--div--numbers" id="num_anim">
+                <div class="roboto-regular text">2</div>
+                <span class="roboto-regular text">Сделать удобным поиск информации для туристов и жителей страны</span>
+            </div>
+            <div class="section_numbers--div--numbers" id="num_anim">
+                <div class="roboto-regular text">3</div>
+                <span class="roboto-regular text">Создать одну единую платформу для изучения культуры и истории Беларуси</span>
+            </div>
+        </section>
+
+        <section class="section_white-bg" id="third_block">
+            <div>
+                <span class="heading alegreya-sans-sc-medium">Дальнейшее развитие проекта</span>
+                <span class="text roboto-regular">В ближайшем будущем планируется реализация новых функций: возможность прокладывать маршруты, отзывы пользователей, добавление новых достопримичательностей, адаптивая версия веб-сайта.</span>
+            </div>
+        </section>
+
+        <section class="creator">
+            <div class="creator_left">
+                <span class="heading alegreya-sans-sc-medium" id="anim_fourth">Об авторе проекта</span>
+                <span class="text roboto-regular" id="anim_fourth">Меня зовут Даниил. Я ученик и начинающий front-end разработчик, увлеченный созданием современных и удобных веб-приложений. Занимаюсь веб-разработкой уже второй год. В разработке этого веб-приложения я использовал HTML, CSS, JavaScript, GSAP для различных видов анимаций и Node.js для создания локального сервера. Данный проект был создан, чтобы объединить свою любовь к Беларуси и веб-разработке.</span>
+            </div>
+            <div class="creator_right">
+                <div class="parent_box_img" id="anim_fourth">
+                    <img src="/files/img/программист.png" class="parent_box_img--img">
+                </div>
+            </div>
+        </section>
+        <%- include('blocks/footer') -%>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+.section_white-bg {
+    margin: 0 100px;
+}
+
+.otstyp {
+    padding-top: 120px;
+}
+
+.section_white-bg div {
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.section_white-bg span {
+    text-align: start;
+}
+
+.section_white-bg .heading {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.section_numbers {
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.section_numbers .heading {
+    margin-bottom: 20px;
+}
+
+.section_numbers--div--numbers {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 20px 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section_places--div--numbers>span {
+    text-align: start;
+    width: 630px;
+    margin-left: 10px;
+}
+
+.section_numbers--div--numbers>div {
+    width: 61.08px;
+    height: 61.08px;
+    background-color: #C45A4F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.creator {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    height: 680px;
+    margin-top: 40px;
+}
+
+.creator_left,
+.creator_right {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+}
+
+.creator_left>.heading {
+    margin-bottom: 40px;
+}
+
+.creator_left>.text {
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+.creator_right>.parent_box_img {
+    align-self: flex-end;
+    width: 618px;
+    height: 627px;
+}
+
+.creator_right>.parent_box_img>.parent_box_img--img {
+    width: 630px;
+    height: 640px;
+}
+
+.footer {
+    margin-top: 20px;
+}

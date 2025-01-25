@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/files/css/fonts.css">
+    <link rel="stylesheet" href="/files/css/header.css">
+    <link rel="stylesheet" href="/files/css/footer.css">
+    <link rel="stylesheet" href="/files/css/locations.css">
+    <script src="/files/js/gsap.min.js"></script>
+    <script src="/files/js/ScrollTrigger.min.js"></script>
+    <script src="/files/js/staticAnimation.js"></script>
+    <script src="/files/js/locations.js"></script>
+    <title>Locations</title>
+</head>
+
+<body>
+    <%- include('blocks/header') -%>
+
+        <section class="section_cards">
+            <span id="pagaName" class="alegreya-sans-sc-medium heading">Интересные локации Беларуси</span>
+            <div class="cards" id="cards">
+
+            </div>
+        </section>
+
+        <dialog id="dialog_information">
+            <div class="div_info">
+                <div class="left_info">
+                    <div class="parent_box_img">
+                        <img id="img" class="parent_box_img--img">
+                    </div>
+                </div>
+                <div class="right_info">
+                    <span id="heading" class="heading alegreya-sans-sc-medium "></span>
+                    <span id="text" class="text roboto-regular "></span>
+                    <button class="red_button" id="exit_dialog">Закрыть</button>
+                </div>
+            </div>
+        </dialog>
+
+        <%- include('blocks/footer') -%>
+</body>
+
+</html>
