@@ -5,3 +5,5 @@ To open a project, you must:
 3. Open a terminal or PowerShell 
 4. Enter the "cd" + project path in the command prompt.
 5. Enter "node server.js" in the command prompt.
+
+The project contains css, javascript, and node files.js, express.js, ejs
