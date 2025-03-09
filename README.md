@@ -56,7 +56,7 @@ npm install
 ```sh
 node server.js
 ```
-The server will be available at `http://localhost:3000` (default port).
+The server will be available at `http://localhost:5000` (default port).
 
 ## Technologies Used
 - **Node.js** – backend
