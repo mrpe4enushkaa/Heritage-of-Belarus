@@ -12,25 +12,9 @@ This project is an interactive map of Belarusian landmarks. It is built using **
 │   │   ├── header.ejs
 │   ├── files
 │   │   ├── css (project styles)
-│   │   │   ├── about.css
-│   │   │   ├── fonts.css
-│   │   │   ├── footer.css
-│   │   │   ├── header.css
-│   │   │   ├── index.css
-│   │   │   ├── locations.css
-│   │   │   ├── map.css
 │   │   ├── img (images)
 │   │   ├── js (scripts)
-│   │   │   ├── ScrollTrigger.min.js (GSAP library)
-│   │   │   ├── about.js (logic for the "About" page)
-│   │   │   ├── gsap.min.js (GSAP library)
-│   │   │   ├── index.js (main script)
-│   │   │   ├── locations.js (logic for handling locations)
-│   │   │   ├── map.js (map-related scripts)
-│   │   │   ├── staticAnimation.js (animations)
 │   │   ├── json (data storage)
-│   │   │   ├── data.json (main location data)
-│   │   │   ├── index_data.json (homepage data)
 │   ├── about.ejs ("About" page)
 │   ├── index.ejs (homepage)
 │   ├── locations.ejs (locations page)
