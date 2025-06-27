@@ -2,8 +2,9 @@ const express = require('express');
 
 const app = express();
 
-app.set('view engine', 'ejs');
+const PORT = 5000;
 
+app.set('view engine', 'ejs');
 app.use('/files', express.static(__dirname + '/views/files'));
 
 app.get('/', (request, response) => {
@@ -18,8 +19,6 @@ app.get('/locations', (request, response) => {
 app.get('/about', (request, response) => {
     response.render('about');
 });
-
-const PORT = 5000;
 
 app.listen(PORT, () => {
     console.log(`Server started http://localhost:${PORT}`);
