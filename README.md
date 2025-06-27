@@ -29,8 +29,8 @@ This project is an interactive map of Belarusian landmarks. It is built using **
 ## Installation and Setup
 ### 1. Clone the repository
 ```sh
-git clone <REPO_URL>
-cd <project_folder>
+git clone https://github.com/MrPe4enkaa/Heritage-of-Belarus.git
+cd Heritage-of-Belarus
 ```
 ### 2. Install dependencies
 ```sh
